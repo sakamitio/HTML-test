@@ -9,13 +9,12 @@ body {
     font-size: 25px;
     font-weight: 300;
     border-bottom: black;
-    color:white;
+    color: white;
     text-decoration: underline;
     cursor: pointer;
 }
 
-
-section.personal{
+section.personal {
     margin-bottom: 70px;
 }
 
@@ -23,7 +22,7 @@ section.personal{
     border-radius: 50%;
 }
 
-section{
+section {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -42,18 +41,14 @@ section{
     margin-left: 5em;
 }
 
-.photo{
+.photo {
     width: 50%;
     text-align: right;
 }
 
-
-
 .no-padding {
     margin: 0.5em 0;
-    background-color:#b5d0ad;
-
-
+    background-color: #b5d0ad;
 }
 
 .blue-heading {
@@ -63,7 +58,6 @@ section{
     width: 100%;
     padding: 10px;
 }
-
 
 .center {
     text-align: center;
@@ -75,16 +69,13 @@ Table {
     text-align: left;
     max-width: 80%;
     margin: 0 auto;
-    background-color:#fbf7f7;
+    background-color: #fbf7f7;
     /*テーブルの枠を記載*/
 }
 
 th {
     word-break: keep-all;
 }
-
-
-
 
 td,
 th {
@@ -103,9 +94,7 @@ th {
     margin: 0 auto;
 }
 
-
-
-  a {
+a {
     font-weight: 600;
     color: #fff;
     background: #5876a3;
@@ -113,45 +102,48 @@ th {
     border-radius: 5px;
     text-decoration: none;
     box-shadow: 0 4px 0 #3f5c88;
-  }
+}
 
-  .blink {
-    animation: blink 1s steps(1, end) infinite;color:white;
-  }
-  
-  @keyframes blink {
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+    color: white;
+}
+
+@keyframes blink {
     0% {
-      opacity: 1;
+        opacity: 1;
     }
     50% {
-      opacity: 0;
+        opacity: 0;
     }
     100% {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-.no-padding.new{
+}
+
+.no-padding.new {
     padding-left: 85px;
 }
-#profilePicture{
+
+#profilePicture {
     max-width: 100%;
 }
-.saga{
+
+.saga {
     margin-top: 1em;
     margin-bottom: 1em;
     text-align: center;
     font-size: 18px;
-    background-color:#96b0b0;
+    background-color: #96b0b0;
     padding: 8px;
-    color:white;
-
+    color: white;
 }
-.saga img{
+
+.saga img {
     max-width: 100%;
     padding-top: 10px;
 }
 
-.selling-saga{
-    color:black
+.selling-saga {
+    color: black
 }
-
