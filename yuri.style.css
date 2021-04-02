@@ -1,0 +1,157 @@
+body {
+    background-color: rgba(233, 228, 228, 1);
+    font-family: 'Kiwi Maru', serif;
+    background-image: url(images/workspace_blue.jpg);
+    background-size: 100%;
+}
+
+.name {
+    font-size: 25px;
+    font-weight: 300;
+    border-bottom: black;
+    color:white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+section.personal{
+    margin-bottom: 70px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.basic-info {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+.photo-text {
+    text-align: left;
+    margin-left: 5em;
+}
+
+.photo{
+    width: 50%;
+    text-align: right;
+}
+
+
+
+.no-padding {
+    margin: 0.5em 0;
+    background-color:#b5d0ad;
+
+
+}
+
+.blue-heading {
+    background-color: #96b0b0;
+    color: white;
+    margin-bottom: 1em;
+    width: 100%;
+    padding: 10px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+Table {
+    /*要素セレクタ*/
+    border: 1px #000000 solid;
+    text-align: left;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color:#fbf7f7;
+    /*テーブルの枠を記載*/
+}
+
+th {
+    word-break: keep-all;
+}
+
+
+
+
+td,
+th {
+    border: 1px solid #999;
+    padding: 1em;
+    text-align: left;
+}
+
+.cat {
+    border-style: dotted;
+    border-width: 5px;
+    border-color: #ffffff;
+    font-family: "Sawarabi Gothic";
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+
+  a {
+    font-weight: 600;
+    color: #fff;
+    background: #5876a3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 4px 0 #3f5c88;
+  }
+
+  .blink {
+    animation: blink 1s steps(1, end) infinite;color:white;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.no-padding.new{
+    padding-left: 85px;
+}
+#profilePicture{
+    max-width: 100%;
+}
+.saga{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-size: 18px;
+    background-color:#96b0b0;
+    padding: 8px;
+    color:white;
+
+}
+.saga img{
+    max-width: 100%;
+    padding-top: 10px;
+}
+
+.selling-saga{
+    color:black
+}
+
